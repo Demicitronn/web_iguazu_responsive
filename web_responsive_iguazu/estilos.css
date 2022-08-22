@@ -1,0 +1,962 @@
+@import url('https://fonts.googleapis.com/css2? family= Hind+Madurai:wght@300 & family= Lora:ital@1 & family= Montserrat:ital,wght@1,600 & family= Roboto & mostrar=cambiar');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 0;
+    font-family:'Roboto', sans-serif;
+    width: 100%;
+    letter-spacing: 0.03rem;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    
+
+}
+
+h1{
+    font-size: 3.5em;
+    text-shadow: 1px 4px 4px rgb(0, 0, 0);
+    font-family: 'sans-serif';
+    
+}
+h2{
+    font-size: 2.7em;
+    font-family: 'sans-serif';
+    
+   
+}
+
+h3{
+    font-size: 2em;
+   
+}
+
+p{
+    font-size: 1.25em;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    font-size: 1.25em;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(54, 52, 52, 0.5);
+    color: white;
+    background-color: green;
+    
+}
+
+button:hover{
+    background-color:rgb(0, 0, 0);
+    
+}
+
+button a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+
+.contenedor{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{
+    color: green;
+}
+header{
+    background-color: rgba(245, 245, 245,);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px ;
+    font-weight: bold;
+    color: green;
+    font-size: 1.45em;
+}
+
+header .contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+header a:hover{
+    color: green;
+}
+
+#portada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/cataratas-portada.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+}
+ 
+#portada h1{
+    color: white;
+}
+
+#portada button{
+    font-size: 1.75em;
+}
+
+#conocenos-ya .contenedor{
+    text-align: center;
+    padding: 100px 12px;
+}
+#nuestros-programas{
+    background-color: rgba(30, 30, 30 );
+    color: white;
+    text-align: center;
+}
+#nuestros-programas .contenedor{
+    padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.carta:first-child{
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/cataratas3.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta:nth-child(2){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/guiraoga.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/luna-llena.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+.carta:nth-child(4){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/ruinas-de-san-ignacio.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+.carta:nth-child(5){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        ), 
+        url(fotos-iguazu/img/minas-de-wanda.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+
+
+#caracteristicas .contenedor{
+    text-align: center;
+    padding: 200px 12px;
+
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(30, 30, 30 );
+    color: white;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+/*CIUDAD*/
+
+#nuestros{
+    background-color: rgba(30, 30, 30 );
+    color: white;
+    text-align: center;
+    
+}
+#nuestros .contenido{
+    padding: 150px 12px;
+    border-radius: 50%;
+}
+
+#nuestros h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    
+}
+
+#nuestros h3{
+    
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    border-radius: 10%;
+}
+#nuestros p{
+    display: none;
+    text-shadow: 1px 3px 3px #000000;
+}
+
+#nuestros .carta-ciudad{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.carta-ciudad:first-child{
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ), 
+        url(fotos-iguazu/img/restaurat/card-2.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta-ciudad:nth-child(2){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ), 
+        url(fotos-iguazu/img/restaurat/humuluscerveceria.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta-ciudad:nth-child(3){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ), 
+        url(fotos-iguazu/img/restaurat/naipi-resto.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta-ciudad:nth-child(4){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ), 
+        url(fotos-iguazu/img/restaurat/la-toscana.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.carta-ciudad:nth-child(5){
+    background-image:linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)
+        ), 
+        url(fotos-iguazu/img/restaurat/holy-cerveceria_1637_202104141303320.jpg);
+        background-position: center center;
+        background-size: cover;
+
+}
+
+.boton-ciudad{
+
+    font-size: 1em;
+    
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(54, 52, 52, 0.5);
+    color: white;
+    text-decoration: none;
+
+}
+
+#comida .contenedor-comida{
+    text-align: center;
+    padding: 200px 12px;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+/*contacto*/
+
+.color-titulo{
+    color: #2196f3;
+    text-align: center;
+}
+
+.color-titulo2{
+    color: green;
+    text-align: center;
+}
+
+/*REDES*/
+:root{
+    --facebook: #3b5999;
+    --instagram:#e4405f;
+    --twitter:#55acee;
+    --pinterest:#bd081c;
+}
+/*fondo y color de letras*/
+.fondo-redes{
+    background-color:whitesmoke;
+    color:black;
+    padding: 20px;
+
+}
+.redes{
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    height: 10vh; 
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.redes ul li{
+    display: inline-block;
+    margin: 0;
+    width: 50px;
+    height: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.redes ul li a{
+    display:flex;
+    padding: 30px 10px; 
+    background: #333;
+    color: #fff;
+    line-height: 50px;
+    font-size: 30px; 
+    box-shadow: 0 3px 5px 0px rgba(0,0,0, .2);
+    transition: .2s;
+    text-decoration: none;
+
+}
+
+.redes ul:hover a{
+    filter: blur(2px); 
+    text-decoration: none;
+}
+
+.redes ul li a:hover{
+    transform: translateY(-3) scale(1.05); 
+    box-shadow: 0 3px 5px 0px rgba(0 , 0 , 0 , .4);
+    filter: none;
+    text-decoration: none;
+    
+}
+.redes ul li .facebook:hover{
+    background: var(--facebook);
+}
+.redes ul li .instagram:hover{
+    background: var(--instagram);
+}
+
+.redes ul li .twitter:hover{
+    background: var(--twitter);
+}
+.redes ul li .pinterest:hover{
+    background: var(--pinterest);
+}
+
+/*formulario*/
+#formulario{
+    width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+#formulario label,
+#formulario textarea, 
+#formulario input{
+    display: block;
+}
+#formulario label{
+    margin-bottom: 20px;
+    display: inline-block;
+    left: 20px;  
+    
+}
+
+
+#formulario input[ type=submit]{
+    background-color: rgb(6, 7, 6); 
+    color: rgb(255, 255, 255); 
+    padding: 8px 16px;
+    border: solid;
+    text-transform: uppercase;
+    border-radius:5px ;
+    background: rgb(9, 90, 29);  
+}
+
+textarea{
+    resize: none;
+    font-family:'open sans';
+}
+
+#formulario input[ type=checkbox],
+#formulario input[type=checkbox]+label{
+    display: inline-block; 
+}
+#formulario input[type=checkbox]{
+    position: absolute;
+    left: -999999px;
+    background: whitesmoke;
+}
+
+#formulario input[type=checkbox]+label::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 2px solid rgb(9, 90, 29); 
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    border-radius: 3px;
+    background:transparent;
+    box-shadow: inset 0px 0px 3px rgb(18, 80, 31);   
+}
+
+#formulario input[type=checkbox]:checked+label::before{
+    background-image: url(./check.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position:center center ;  
+}
+
+#formulario textarea:focus:invalid,
+#formulario input:focus:invalid{
+    background-color: rgb(48, 126, 58);
+    color: aliceblue;
+}
+
+
+
+#formulario input{
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid rgb(36, 114, 29);
+   
+    
+}
+
+.fila{
+    display:flex;
+}
+
+#contacto .fila{
+    justify-content: space-around; 
+    background: transparent;
+}
+
+
+.menu-anclas a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px ;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: .5s;
+    align-items: center;
+}
+
+.menu-anclas a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 30px #2196f3, 0 0 50px #2196f3;
+}
+  
+.menu-anclas ul li a:hover {
+    
+    border-bottom: 2px solid rgb(36, 252, 29); 
+}
+
+/*video*/
+
+.video {
+    display: flex;
+    position: relative;
+    width:80%;
+    height:50px;
+    padding-bottom: 56.25%;
+   
+    margin: 20px;
+    
+
+}
+
+
+
+.video iframe{
+    position: absolute;
+    width:80%;
+    height: 80%;
+    left:20%;
+    top:0;
+    right:0;
+    bottom:0;
+    display: block;
+  
+}
+
+/*MAPA*/
+
+.mapa{
+    display: flex;
+    position: relative;
+    width:80%;
+    height:50px;
+    padding-bottom: 16.25%;
+   
+    margin: 20px;
+
+}
+
+.mapa iframe{
+    position: absolute;
+    width:80%;
+    height: 80%;
+    left:20%;
+    top:0;
+    right:0;
+    bottom:0;
+    display: block;
+  
+}
+
+
+
+/*footer*/
+
+footer{
+    background-color: #000000;
+    padding: 0px 5px;
+   /* width: 80%;*/
+}
+
+.contenedor-footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.caja-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+   .caja-footer .materia{
+       max-width: 350px;
+       margin-top: 10px;
+       color: #666565;
+       font-size:1.125;
+   }
+    
+   .caja-footer h4{
+       margin-bottom:20px;
+       color: #666565;
+       font-weight: 700;
+       font-size: 1.25;
+   }
+
+   .caja-footer a{
+       margin-top: 10px;
+       color: #666565;
+       font-weight: 600;
+   }
+
+   .caja-footer a:hover{
+       opacity: 0.8;
+   }
+
+.caja-footer a .fab{
+    font-size: 1.25;
+}
+
+
+
+
+
+
+/*CUIDAD*/
+
+
+img{
+    max-width: 100%; /*chequear*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-anclas a:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 30px #2196f3, 0 0 50px #2196f3;
+}
+  
+.menu-anclas ul li a:hover {
+    
+    border-bottom: 2px solid rgb(36, 252, 29); 
+}
+
+
+
+/*ADAPTACION*/
+
+@media (min-width:375px){
+
+   
+
+    footer .contenedor{
+        justify-content: flex-end;
+    }
+
+    
+}
+
+@media (min-width:720px){
+
+    header{
+        position: fixed;
+        width: 100%;
+        background-color: white;
+    }
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+    #portada h1{
+        font-size: 5em;
+    }
+
+    #conocenos-ya .contenedor{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #conocenos-ya .texto{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #conocenos-ya h2{
+        margin-top: 0px;
+
+    }
+  
+    #conocenos-ya .img-contenedor{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/iguazu2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    #conocenos-ya .img-contenedor-1{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/cataratas-iguazu.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #conocenos-ya .img-contenedor-2{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/guiraoga.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #conocenos-ya .img-contenedor-3{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/luna-llena.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #conocenos-ya .img-contenedor-4{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/ruinas-de-san-ignacio.jpg);
+            
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+
+    #conocenos-ya .img-contenedor-5{
+        background-image:linear-gradient(
+            0deg, 
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            ), 
+            url(fotos-iguazu/img/minas-de-wanda.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        
+    }
+
+
+    #comida .contenedor-comida{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #comida .texto-comida{
+        width: 50%;
+        max-width: 600px;
+        text-align:initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #comida h2{
+        margin-top: 0px;
+
+    }
+  
+    #comida .img-contenedor-comida{
+        background-image: 
+            url(fotos-iguazu/img/restaurat/fondo-comida.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 600px;
+    }
+
+
+    #nuestros-programas .programas{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-programas p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-programas h3{
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    #nuestros-programas .cartas{
+        padding: 50px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    #nuestros .programas-ciudad{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros h3{
+        margin-top: 0;
+    }
+
+    #nuestros .cartas-cidad{
+        padding: 50px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        
+    }
+
+    
+
+    #final h2{
+        font-size: 5em;
+    }
+
+    #final button{
+        font-size: 2em;
+    }
+
+    footer .contenedor{
+        justify-content: flex-end;
+    }
+ 
+}
+
+@media (min-width: 1200px){
+    #caracteristicas{
+        background-position-x:calc(100vw - 800px) ;
+    }
+
+}
+
